@@ -12,15 +12,18 @@ The Euler Algorithm, introduced by Leonard Euler, finds the greatest common divi
 3. Repeat until `a` becomes a multiple of `b`.
 4. The GCD is the final value of `b`.
 
-### Example:
-For `a = 28` and `b = 16`:
-- `28 - 16 = 12`
-- `16 - 12 = 4`
-- `12 - 4 = 8`
-- `8 - 4 = 4`
+# 2. Prime Number Generator
 
-**Result:** The GCD is `4`.
+This project generates the first `n` prime numbers using a simple algorithm and stores them in a vector. The program efficiently identifies primes by checking divisibility with previously found primes.
 
----
+## Features
+- Fills a list of the first `n` prime numbers.
+- Uses a vector to store primes for quick access.
+- Outputs the `n`th prime number.
 
-Feel free to explore the code, learn, and contribute!
+## How It Works
+1. **Initialization:** The first prime number (2) is added to the list.
+2. **Prime Check:** For each subsequent number, it checks divisibility with all previously found primes.
+3. **Storage:** Primes are stored in a global vector for efficient reuse.
+
+
