@@ -21,7 +21,7 @@ This project generates the first `n` prime numbers using a simple algorithm and 
 - Uses a vector to store primes for quick access.
 - Outputs the `n`th prime number.
 
-## How It Works
+### How It Works
 1. **Initialization:** The first prime number (2) is added to the list.
 2. **Prime Check:** For each subsequent number, it checks divisibility with all previously found primes.
 3. **Storage:** Primes are stored in a global vector for efficient reuse.
