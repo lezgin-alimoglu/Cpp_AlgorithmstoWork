@@ -10,15 +10,15 @@ int gcd(int a, int b) {
 		a = t;
 		return gcd(a, b);
 	}
-	cout << "Gcd of integers are " << a <<endl;
 	return a;
 }
-
 
 int main(){
 	int a = 21;
 	int b = 14;
-	gcd(a, b);
+
+	int result = gcd(a, b);
+    	cout << "The GCD of " << a << " and " << b << " is " << result << endl;
 
 	return 0;
 }
